@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wt lab 3</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .myTable {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Лабораторна робота №3</h1>
+    <h2>Створення простої сторінки</h2>
+    <h3>Маршрути трамваїв Львів</h3>
+
+    <table class="myTable">
+        <tbody>
+        <tr>
+            <td id="titleTable" class="title">Трамвай №1</td>
+        </tr>
+        <tr>
+            <td id="textTable" style="background-color: darkgrey">
+                Залізничний вокзал – Приміський вокзал – пл. Кропивницького – вул. Русових – Львівська політехніка – Головна Пошта – вул. Дорошенка – пл. Ринок – вул. Руська – пл. Митна – Війсковий госпіталь – вул. Кармалюка – вул. Мечникова – вул. Богдана Котика – вул. Пасічна – вул. Богдана Котика – вул. Мечникова – Медичний університет – Війсковий госпіталь – пл. Митна – вул. Руська – вул. Дорошенка – Головна Пошта – Львівська політехніка – вул. Карпінського – пл. Кропивницького – Приміський вокзал – Залізничний вокзал
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="train">
+        <a class="buttonTrain active" onclick="selectPage(1)">1</a>
+        <a class="buttonTrain" onclick="selectPage(2)">2</a>
+        <a class="buttonTrain" onclick="selectPage(3)">3</a>
+        <a class="buttonTrain" onclick="selectPage(4)">4</a>
+        <a class="buttonTrain" onclick="selectPage(5)">6</a>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
